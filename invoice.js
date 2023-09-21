@@ -263,6 +263,6 @@ function itemprice(v){
 	const index = $(v).parent().parent().index()
     const item = document.getElementsByName("item_nm")[index].value
     const found = product.find((ar) => item == ar[1])
-		document.getElementsByName("qty")[index].value = found[2] 
+		document.getElementsByName("rate")[index].value = found[2] 
 		console.log(found)
 }
